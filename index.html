@@ -1,14 +1,30 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한국 여행지 추천</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <h1>한국 여행지 추천</h1>
+        <div id="filter-container">
+            <input type="text" id="search-bar" placeholder="검색...">
+            <button class="filter-btn active" data-region="all">전체</button>
+            <button class="filter-btn" data-region="서울">서울</button>
+            <button class="filter-btn" data-region="부산">부산</button>
+            <button class="filter-btn" data-region="제주도">제주도</button>
+            <button class="filter-btn" data-region="경주">경주</button>
+            <button class="filter-btn" data-region="전주">전주</button>
+            <button class="filter-btn" data-region="강릉">강릉</button>
+            <button class="filter-btn" data-region="속초">속초</button>
+        </div>
+    </header>
+    <main id="destinations-container"></main>
+    <footer>
+        <p>&copy; 2023 Korean Travel Recommendations</p>
+    </footer>
+    <script src="main.js" type="module"></script>
 </body>
 </html>
