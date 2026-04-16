@@ -87,3 +87,31 @@ travel-destination:hover {
     box-shadow: 0 15px 30px var(--shadow-color);
 }
 
+.no-result {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: #999;
+    font-size: 1rem;
+    padding: 3rem 0;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin: 0.5rem 0;
+    letter-spacing: -0.5px;
+}
+
+#filter-container {
+    flex-wrap: wrap;
+}
+
+#search-bar:focus {
+    outline: none;
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px rgba(52,152,219,0.15);
+}
+
+footer {
+    margin-top: 2rem;
+}
+
