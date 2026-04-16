@@ -127,7 +127,7 @@ const destinations = [
     {
         name: '부산',
         description: '대한민국 제2의 도시이자 최대 항구 도시. 해운대 해변, 감천문화마을, 자갈치시장이 어우러진 생동감 넘치는 곳.',
-        image: 'https://images.unsplash.com/photo-1560874365-84db4d350e7e?q=80&w=2070&auto=format&fit=crop',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/5/58/Korea-Busan-Gwangan.Bridge-04.jpg',
         rating: '4.7',
         season: '여름 · 가을 추천',
         region: '부산',
@@ -138,7 +138,7 @@ const destinations = [
     {
         name: '제주도',
         description: '유네스코 3관왕 세계자연유산. 한라산, 오름, 에메랄드빛 바다가 펼쳐지는 대한민국 대표 힐링 섬.',
-        image: 'https://images.unsplash.com/photo-1633693901830-6e9b9ce4df90?q=80&w=2070&auto=format&fit=crop',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/0/02/Jeju_-_Seongsan_Ilchulbong_2.JPG',
         rating: '4.9',
         season: '봄 · 여름 추천',
         region: '제주도',
@@ -149,7 +149,7 @@ const destinations = [
     {
         name: '경주',
         description: '천 년 신라의 수도. 도시 전체가 거대한 야외 박물관이며, 유네스코 세계유산 석굴암·불국사가 있습니다.',
-        image: 'https://images.unsplash.com/photo-1579214959413-5a7e634c37c9?q=80&w=2070&auto=format&fit=crop',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Korea-Gyeongju-Bulguksa-Seokgatap-01.jpg',
         rating: '4.6',
         season: '봄 · 가을 추천',
         region: '경주',
@@ -160,7 +160,7 @@ const destinations = [
     {
         name: '전주',
         description: '조선시대 풍류와 맛의 도시. 700여 채의 한옥이 모인 전주한옥마을과 비빔밥으로 전 세계인을 사로잡는 곳.',
-        image: 'https://images.unsplash.com/photo-1558225573-434a5d3c87c7?q=80&w=2070&auto=format&fit=crop',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Jeonju_Hanok_Village_20220701_012.jpg',
         rating: '4.6',
         season: '봄 · 가을 추천',
         region: '전주',
@@ -182,7 +182,7 @@ const destinations = [
     {
         name: '속초',
         description: '설악산 단풍과 동해 바다를 함께 즐길 수 있는 자연 여행의 성지. 아바이마을의 독특한 문화도 볼거리입니다.',
-        image: 'https://images.unsplash.com/photo-1587595493779-994719c869e6?q=80&w=2070&auto=format&fit=crop',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/2/28/Seoraksan_Panorama.JPG',
         rating: '4.5',
         season: '가을 · 여름 추천',
         region: '속초',
